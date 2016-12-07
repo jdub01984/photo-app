@@ -12,7 +12,7 @@ Rails.application.configure do
   
   # Does send emails for production environment, does not effect development environment
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { :host => 'jdub01984-photo-app.herokuapp.com', protocol => 'https'}
+  config.action_mailer.default_url_options = { :host => 'jdub01984-photo-app.herokuapp.com', :protocol => 'https'}
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
