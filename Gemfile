@@ -3,7 +3,11 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
-
+# Use twitter bootstrap for layout and mobile responsive design
+gem 'twitter-bootstrap-rails'
+# Use devise for authentication system
+gem 'devise'
+gem 'devise-bootstrap-views'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -40,8 +44,6 @@ group :development, :test do
 end
 
 group :development do
-  #Use postgres as the database for Active Record
-  gem 'pg'
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 
